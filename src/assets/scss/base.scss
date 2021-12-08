@@ -1,0 +1,39 @@
+@import "./vars";
+
+body {
+  font-family: $--font-family;
+  font-size: $--font-size-base;
+  font-weight: $--font-weight-normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  background-color: $--gray;
+
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $--primary;
+}
+
+button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+input {
+  box-shadow: none;
+  border-radius: 0;
+}

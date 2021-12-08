@@ -1,0 +1,26 @@
+// common colors
+$--white: #fff;
+$--blue: #1390e5;
+$--gray: #ededed;
+$--gray-2: #b2b2b2;
+$--gray-3: #999999;
+$--gray-4: #333333;
+$--red: #ff0000;
+
+// theme settings
+$--primary: $--blue;
+$--danger: $--red;
+
+// fonts
+$--font-family: sans-serif;
+$--font-weight-bold: 700;
+$--font-weight-medium: 500;
+$--font-weight-normal: 400;
+$--font-weight-thin: 200;
+$--font-size-small: 12px;
+$--font-size-base: 16px;
+$--font-size-title: 32px;
+$--font-size-subtitle: 24px;
+
+$--content-width: 1280px;
+$--media-mobile: 1024px;
